@@ -93,9 +93,9 @@
 
 * вложенные списки - выполняем отступы
 
-* картинки - ![Hello! This a kitten and a puppy](kitten-and-puppy.avif)
-
 * ссылка - <https://> (использовать квадратные скобки)
+
+* картинки - ![Hello! This a kitten and a puppy](kitten-and-puppy.avif)
 
 >Слово нужно заключать в символы.
 
