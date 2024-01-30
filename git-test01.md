@@ -95,7 +95,9 @@
 
 * ссылка - <https://> (использовать квадратные скобки)
 
-* картинки - ![Hello! This a kitten and a puppy](kitten-and-puppy.avif)
+* картинки - ![текст](путь к изображению)
+
+![Hello! This a kitten and a puppy](kitten-and-puppy.avif)
 
 >Слово нужно заключать в символы.
 
