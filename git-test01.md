@@ -112,14 +112,53 @@
 >Не нужно ставить пробел между знаками и словом (исключение - ненумерованный список)
 
 
-**Работа с удаленным репозиторием**
+
+
+
+# Работа с удаленным репозиторием
+
+**GitHub**
 
 1. Регистрация в GitHub
 
    *https://github.com/*
 
-2. Создать новый репозиторий
+2. Создать новый (локальный) репозиторий
 
    *Кнопка "плюс" справа на экране - new repository*
 
-3. Прописать имя репозитория (repository name)
+3. Прописать имя репозитория
+
+4. Нажать кнопку "Создать" (create repository)
+
+
+**GitHub + Visual Studio Code**
+
+В Visual Studio Code необходимо прописать три команды:
+
+1. git remote add origin https://github.com/Your_account_GitHub/Name_Repository
+
+2. git branch -M master
+
+3. git push -u origin master
+
+>Если появилась ошибка ***error: remote origin already exists***, необходимо выполнить команду ***git remote remove origin***
+
+4. Через несколько секунд появится окошко с подтверждением.
+
+5. В GitHub появится файл name.md
+
+
+**Как редактировать файл**
+
+1. В GitHub нажать на name.md, далее - карандаш (edit this file)
+
+2. Отредактировать файл, сохранить по кнопке (commit message) 
+
+3. Указать, что было изменено и сохранить
+
+4. Чтобы подтянуть изменения в Visual Studio Code (удаленный репозиторий), прописываем команду git pull
+
+
+
+
